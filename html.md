@@ -1,1 +1,1 @@
-* 강조 '<strong> </strong>'
+* 강조 "<strong> </strong>"
