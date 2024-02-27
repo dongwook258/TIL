@@ -5,7 +5,7 @@
 ```<a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/a" target="_blank">a 태그</a>```   
 즉, target="_blank" 를 적어주면 된다.
 * 목록
-  ```<ol>
+```<ol>
   <li>기술소개</li>
   <li>기본문법</li>
   <li>하이퍼텍스트와 속성</li>
