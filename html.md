@@ -23,8 +23,8 @@
 ```
 <html>
    <head>
-     <title>HTML - 수업소개</title>
-     <meta charset="utf-8">
+     <title>HTML - 수업소개</title> // 웹페이지 제목 태그
+     <meta charset="utf-8">        // 깨진 글자 처리
    </head>
 
    <body>
