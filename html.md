@@ -21,6 +21,7 @@
 ```
 * 문서의 구조   
 ```
+<!DOCTYPE html>                    // 선언 된 페이지의 html 버전이 무엇인지 표기
 <html>
    <head>
      <title>HTML - 수업소개</title> // 웹페이지 제목 태그
