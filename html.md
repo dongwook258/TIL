@@ -42,5 +42,19 @@
 ```
 * 이미지
 ```
-<img src="001.jpg" width="100" height"200" alt="또니" title="또니 사진"> //alternative text(이미지 대체 텍스트)
+<img src="001.jpg" width="100" height"200" alt="또니" title="또니 사진"> // alternative text(이미지 대체 텍스트)
+```
+* 테이블
+```
+        <table border="1">                                   // border(경계)
+            <tr>                                             // table row
+                <td>이름</td>    <td>성별</td>  <td>주소</td> // table data
+            </tr>
+            <tr>
+                <td>최진혁</td>  <td>남자</td>  <td>청주</td>
+            </tr>
+            <tr>
+                <td>최유빈</td>  <td>여자</td>  <td>청주</td>
+            </tr>
+        </table>
 ```
