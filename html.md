@@ -46,15 +46,23 @@
 ```
 * 테이블
 ```
-        <table border="1">                                   // border(경계)
-            <tr>                                             // table row
-                <td>이름</td>    <td>성별</td>  <td>주소</td> // table data
-            </tr>
-            <tr>
-                <td>최진혁</td>  <td>남자</td>  <td>청주</td>
-            </tr>
-            <tr>
-                <td>최유빈</td>  <td>여자</td>  <td>청주</td>
-            </tr>
-        </table>
+        <table border="2">                                                       // border(경계)
+            <thead>                                                              // table head
+                <tr>                                                             // table row
+                    <th>이름</th>    <th>성별</th>  <th>주소</th>   <th>회비</th> // table head
+                </tr>
+            </thead>
+            <tbody>                                                              // table body
+                <tr>
+                    <td>최진혁</td>  <td>남자</td>  <td>청주</td>   <td>1000</td> // table data
+                </tr>
+                <tr>
+                    <td>최유빈</td>  <td>여자</td>  <td>청주</td>   <td>500</td>
+                </tr>
+            </tbody>
+            <tfoot>                                                              // table foot
+                <tr>
+                    <td>합계</td>  <td></td>  <td></td> <td>1500</td>
+                </tr>
+            </tfoot>
 ```
