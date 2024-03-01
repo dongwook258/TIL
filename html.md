@@ -40,3 +40,7 @@
 ```
 <br>
 ```
+* 이미지
+```
+<img src="001.jpg" width="100" height"200" alt="또니" title="또니 사진">
+```
