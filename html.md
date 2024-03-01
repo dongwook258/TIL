@@ -49,7 +49,7 @@
 <table border="2">                                                             // border(경계)
   <thead>                                                                      // table head
     <tr>                                                                       // table row
-      <th>이름</th>    <th>성별</th>  <th>주소</th>               <th>회비</th> // table head
+      <th>이름</th>    <th>성별</th>  <th>주소</th>               <th>회비</th> // table head(글씨 자동 굵어짐)
     </tr>
   </thead>
   <tbody>                                                                      // table body
