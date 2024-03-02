@@ -72,6 +72,7 @@
   <p>아이디 : <input type="text" name="id"></p> // type(입력 정보 유형), name(컨트롤 id)
   <p>비밀번호 : <input type="password" name="pwd"></p>
   <p>주소 : <input type="text" name="address"></p>
+  <p>textarea : <textarea id="" cols="50" rows="2">default value</textarea></p> // textarea(여러 줄 입력)
   <input type="submit">
 </form>
 ```
