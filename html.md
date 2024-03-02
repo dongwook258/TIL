@@ -102,3 +102,19 @@
     </body>
 </html>
 ```
+* 버튼
+```
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="http://localhost/form.php">
+            <input type="text">
+            <input type="submit" value="전송"> // value(이름)
+            <input type="button" value="버튼" onclick="alert('hello world')">
+            <input type="reset">
+        </form>
+    </body>
+</html>
+```
