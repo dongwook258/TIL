@@ -66,7 +66,7 @@
     </tr>
   </tfoot>
 ```
-* form
+> * form
 ```
 <form action="http://localhost/login.php">      // action(정보 저장 위치)
   <p>아이디 : <input type="text" name="id"></p> // type(입력 정보 유형), name(컨트롤 id)
