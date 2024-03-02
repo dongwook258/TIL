@@ -76,7 +76,7 @@
   <input type="submit">
 </form>
 ```
-** 선택
+  * 선택
 ```
 <html>
     <head>
