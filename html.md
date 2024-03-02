@@ -76,3 +76,28 @@
   <input type="submit">
 </form>
 ```
+** 선택
+```
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="http://localhost/color.php">
+            <h1>색상</h1>
+            <select name="color">                   // name(입력 정보 유형)
+                <option value="red">붉은색</option> // value(컨트롤 id)
+                <option value="black">검은색</option>
+                <option value="blue">파란색</option>
+            </select>
+            <h1>색상2 (다중선택)</h1>
+            <select name="color2" multiple>         // multiple(다중 선택)
+                <option value="red">붉은색</option>
+                <option value="black">검은색</option>
+                <option value="blue">파란색</option>
+            </select>
+            <input type="submit">
+        </form>
+    </body>
+</html>
+```
