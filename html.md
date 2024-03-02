@@ -118,3 +118,18 @@
     </body>
 </html>
 ```
+* hidden
+```
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="http://localhost/hidden.php">
+            <input type="text" name="id">
+            <input type="hidden" name="hide" value="egoing"> // ui에는 안 보이지만 숨겨진 데이터 전송
+            <input type="submit">
+        </form>
+    </body>
+</html>
+```
