@@ -66,6 +66,7 @@
     </tr>
   </tfoot>
 ```
+---
 * form
 ```
 <form action="http://localhost/login.php">      // action(정보 저장 위치)
