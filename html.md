@@ -165,3 +165,18 @@
     </body>
 </html>
 ```
+* method(get - url을 통해서 데이터 전송 / post - 데이터 숨겨서 전송)
+```
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="http://localhost/method.php" method="post"> // method(기본값은 get)
+            <input type="text" name="id">
+            <input type="password" name="pwd">
+            <input type="submit">
+        </form>
+    </body>
+</html>
+```
