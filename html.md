@@ -147,7 +147,7 @@
                 <input id="password" type="password" name="pwd" value="default value">
             </p>
             <p>
-                <label>textarea : // 전체를 label로 감싸도 됨
+                <label>textarea :                  // 전체를 label로 감싸도 됨
                 <textarea cols="50" rows="2">default value</textarea>
                 </label>
             </p>
