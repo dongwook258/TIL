@@ -133,3 +133,35 @@
     </body>
 </html>
 ```
+* label(글자 클릭해도 커서가 위치함)
+```
+<html>
+    <body>
+        <form action=""></form>
+            <p>
+                <label for="id_txt">text</label> : // for과 id 같아야 함
+                <input id="id_txt" type="text" name="id_txt" value="default value">
+            </p>
+            <p>
+                <label for="password">password</label> : 
+                <input id="password" type="password" name="pwd" value="default value">
+            </p>
+            <p>
+                <label>textarea : // 전체를 label로 감싸도 됨
+                <textarea cols="50" rows="2">default value</textarea>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="color" value="red">붉은색
+                </label>
+            </p>
+            <p>
+                <label for="color_blue">
+                    <input id="color_blue"type="checkbox" name="color" value="blue">파란색
+                </label>
+            </p>
+        </form>
+    </body>
+</html>
+```
