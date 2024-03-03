@@ -187,7 +187,8 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <form action="http://localhost/upload.php" method="post" enctype="multipart/form-data">                                                               // 파일 전송하려면 method, enctype 필요
+        <form action="http://localhost/upload.php" method="post" enctype="multipart/form-data">
+                                               // 파일 전송하려면 method, enctype 필요
             <input type="file" name="profile"> // 파일의 name 필요
             <input type="submit">
         </form>
