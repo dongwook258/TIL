@@ -199,11 +199,11 @@
 ```
 <html>
     <head>
-        <meta charset="utf-8">                                                          // 기본 encoding = utf-8
-        <meta name="description" content="생활코딩의 소개자료">                          // 웹페이지 설명
-        <meta name="keywords" content="코딩,coding,생활코딩,프로그래밍,html,css,javascript"> // 키워드
-        <meta name="author" content="egoing">                                           // 저자
-        <meta http-equiv="refresh" content="10">                                        // 10초마다 새로고침
+        <meta charset="utf-8">                                          // 기본 encoding = utf-8
+        <meta name="description" content="생활코딩의 소개자료">          // 웹페이지 설명
+        <meta name="keywords" content="코딩,coding,생활코딩,프로그래밍"> // 키워드
+        <meta name="author" content="egoing">                           // 저자
+        <meta http-equiv="refresh" content="10">                        // 10초마다 새로고침
     </head>
     <body>
         생활코딩은 일반인에게 프로그래밍을 알려주는 온라인/오프라인
