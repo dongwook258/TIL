@@ -258,3 +258,9 @@
 ```
 <iframe src="iframe_source.html" frameborder="0" sandbox></iframe> // sandbox(javascript호출x / 데이터 전송 x)
 ```
+* video(비디오 삽입)
+```
+<video width="400" controls>      // controls(동영상 컨트롤 모드)
+  <source src="videos/small.mp4"> // mp4 - 크롬
+  <source src="videos/small.ogv"> // ogv - 파이어폭스
+</video>
