@@ -281,4 +281,14 @@
   <input type="submit">
 </form>
 ```
+* 새로운 속성들
+```
+<form action="login.php" autocomplete="on"> // autocomplete(자동완성)
+  <input type="text" name="id" placeholder="id를 입력해주세요" autofocus>
+                                                            // placeholder(입력양식 설명), autofocus(자동 커서)
+  <input type="password" name="password" autocomplete="off" placeholder="비밀번호를 입력해주세요">
+                                                            // autocomplete(off 이 태그만 자동완성 off)
+  <input type="submit">
+</form>
+```
 * <http://caniuse.com>(태그 사용 가능 여부 검사)
