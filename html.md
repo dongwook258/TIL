@@ -265,4 +265,4 @@
   <source src="videos/small.ogv"> // ogv - 파이어폭스
 </video>
 ```
-* caniuse.com(태그 사용 가능 여부 검사)
+* <http://caniuse.com>(태그 사용 가능 여부 검사)
