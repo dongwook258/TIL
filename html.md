@@ -265,4 +265,20 @@
   <source src="videos/small.ogv"> // ogv - 파이어폭스
 </video>
 ```
+* 추가 된 input type
+```
+<form action="form.php">
+  <input type="number" min="10" max="15">             // 숫자 입력
+  <input type="date" name="datev">                    // 날짜 입력
+  <input type="month" name="monthv">                  // 월 입력
+  <input type="week" name="weekv">                    // 주 입력
+  <input type="time" name="timev">                    // 시간 입력
+  <input type="email" name="emailv">                  // email 입력
+  <input type="search">                               // 검색 입력
+  <input type="tel" name="telv">                      // 전화번호 입력
+  <input type="url" name="urlv">                      // url 입력
+  <input type="range" name="rangev" min="0" max="10"> // 범위 입력
+  <input type="submit">
+</form>
+```
 * <http://caniuse.com>(태그 사용 가능 여부 검사)
