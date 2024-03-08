@@ -6,5 +6,5 @@
 </style>
 ```
 ```
-style="color:red" // style(html 태그), color:red(css 효과)
+style="color:red" // style(html 속성), color:red(css 효과)
 ```
