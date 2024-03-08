@@ -1,11 +1,32 @@
 ```
-<style>
-  a {            // selector(선택자)
-    color:red;   // declaration(선언)
-    text-decoration: none;
-  }
-</style>
-```
-```
 style="color:red;text-decoration:underline" // style(html 속성), color:red(css 효과)
+```
+```
+<head>
+  <style>
+    a { // tag selector(선택자)
+        color: black; // declaration(선언)
+        text-decoration: none;
+    }
+    .saw { // class selector
+        color: gray;
+    }
+    #active { // id selector
+        color: red;
+    }
+    h1 {
+          font-size: 45px;
+          text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+    <ol>
+      <li><a href="1.html" class="saw">HTML</a></li> // calss
+      <li><a href="2.html" class="saw" id="active">CSS</a></li> // class, id
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+  <h2>CSS</h2>
+</body>
 ```
