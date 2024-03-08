@@ -1,6 +1,7 @@
 ```
 style="color:red;text-decoration:underline" // style(html 속성), color:red(css 효과)
 ```
+* 선택자와 선언, class, id
 ```
 <head>
   <style>
@@ -29,4 +30,11 @@ style="color:red;text-decoration:underline" // style(html 속성), color:red(css
     </ol>
   <h2>CSS</h2>
 </body>
+```
+* blcok level element(h1), inline element(a)
+* 중복 제거 방법
+```
+h1, a{
+      border: 5px solid red;
+    }
 ```
