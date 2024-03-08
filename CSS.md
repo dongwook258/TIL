@@ -72,3 +72,11 @@ h1{
   </div>
 </body>
 ```
+* mediaquery
+```
+@media(max-width:800px){ // 800px 보다 작으면 없애라
+  div{
+    display: none;
+     }
+}
+```
