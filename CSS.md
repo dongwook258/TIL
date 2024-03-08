@@ -48,3 +48,4 @@ h1{
   width: 100px;
 }
 ```
+* div(block), span(inline)
