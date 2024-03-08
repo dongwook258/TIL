@@ -38,3 +38,13 @@ h1, a{
       border: 5px solid red;
     }
 ```
+* css 박스 모델
+```
+h1{
+  padding: 20px;
+  border: 5px solid red;
+  margin: 20px;
+  display: bolck;
+  width: 100px;
+}
+```
