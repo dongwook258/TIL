@@ -49,3 +49,26 @@ h1{
 }
 ```
 * div(block), span(inline)
+* grid
+```
+<head>
+  <meta charset="utf-8">
+  <title></title>
+    <style>
+      #grid {
+          border: 5px solid pink;
+          display: grid;
+          grid-template-columns: 150px 1fr; // 1fr(나머지)
+            }
+      div {
+          border: 5px solid gray;
+            }
+    </style>
+</head>
+<body>
+  <div id="grid">
+    <div>NAVIGATION</div>
+    <div>ARTICLE</div>
+  </div>
+</body>
+```
