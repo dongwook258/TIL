@@ -73,7 +73,7 @@ h1{
   </div>
 </body>
 ```
-* mediaquery
+* mediaquery(반응형)
 ```
 @media(max-width:800px){ // 800px 보다 작으면 없애라
   div{
