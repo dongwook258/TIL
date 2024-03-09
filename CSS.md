@@ -30,6 +30,7 @@ style="color:red;text-decoration:underline" // style(html 속성), color:red(css
     </ol>
   <h2>CSS</h2>
 </body>
+tag < class < id
 ```
 * blcok level element(h1), inline element(a)
 * 중복 제거 방법
@@ -79,4 +80,8 @@ h1{
     display: none;
      }
 }
+```
+* css 코드 재사용
+```
+<link rel="stylesheet" href="style.css"> // rel(ation 관계를 나타내 주는 필수 속성)
 ```
