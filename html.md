@@ -77,7 +77,7 @@
   <input type="submit">
 </form>
 ```
-* 선택
+* 선택(select)
 ```
 <html>
     <head>
@@ -101,6 +101,9 @@
         </form>
     </body>
 </html>
+```
+```
+<input type="radio" name="gender" id="id-gender-male"> // radio(하나만 동그라미 선택)
 ```
 * 버튼
 ```
