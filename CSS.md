@@ -42,6 +42,12 @@ tag < class < id
 반응 선택자 : hover(마우스 커서가 위에), active(활성화 된), visited
 상태 선택자 : focus, enabled, disabled
 ```
+* 특성 선택자
+```
+a[href=https://www.naver.com] {
+
+                          }
+```
 * blcok level element(h1), inline element(a)
 * 중복 제거 방법
 ```
