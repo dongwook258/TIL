@@ -61,11 +61,17 @@ h1{
   padding: 20px;
   border: 5px solid red;
   margin: 20px;
-  display: bolck;
+  display: block;
   width: 100px;
 }
 ```
 * div(block), span(inline)
+* display, float, position
+```
+display : block, inline-block, inline
+float : left, right // 화면의 내용 무시하고 위치 조정
+position : absolute, relative, fixed
+```
 * grid
 ```
 <head>
