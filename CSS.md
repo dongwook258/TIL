@@ -32,6 +32,11 @@ style="color:red;text-decoration:underline" // style(html 속성), color:red(css
 </body>
 tag < class < id
 ```
+* 조합 선택자
+```
+자식 : >        /* h1 > span */
+자손 : 띄어쓰기 // h1 span
+```
 * blcok level element(h1), inline element(a)
 * 중복 제거 방법
 ```
