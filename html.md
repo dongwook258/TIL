@@ -77,7 +77,7 @@
   <input type="submit">
 </form>
 ```
-* 선택(select, radio)
+* 선택(select, radio, checkbox)
 ```
 <html>
     <head>
@@ -104,6 +104,9 @@
 ```
 ```
 <input type="radio" name="gender" id="id-gender-male"> // radio(하나만 동그라미 선택)
+```
+```
+<input type="checkbox" name="agree" id="id-agree"> // checkbox(동의 버튼 같은거)
 ```
 * 버튼
 ```
