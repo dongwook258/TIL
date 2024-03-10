@@ -34,8 +34,13 @@ tag < class < id
 ```
 * 조합 선택자
 ```
-자식 : >        /* h1 > span */
+자식 : >        // h1 > span
 자손 : 띄어쓰기 // h1 span
+```
+* 반응, 상태 선택자
+```
+반응 선택자 : hover(마우스 커서가 위에), active(활성화 된), visited
+상태 선택자 : focus, enabled, disabled
 ```
 * blcok level element(h1), inline element(a)
 * 중복 제거 방법
