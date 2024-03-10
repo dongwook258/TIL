@@ -77,7 +77,7 @@
   <input type="submit">
 </form>
 ```
-* 선택(select)
+* 선택(select, radio)
 ```
 <html>
     <head>
