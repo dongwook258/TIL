@@ -34,7 +34,7 @@ document.write("data scientis : " + cowokers["data scientist] + "<br>");
 * 객체 데이터 순회 방법
 ```
 for (var key in cowokers) {
-  document.write(key + "<br>"); // 객체의 key값 출력
+  document.write(key + "<br>");           // 객체의 key값 출력
 }
 
 for (var key in cowokers) {
