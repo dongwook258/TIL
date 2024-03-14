@@ -59,3 +59,15 @@ cowokers.showAll = function() {
   }
 }
 ```
+* 객체 활용하기
+```
+var Body = {
+  setColor : function (color) {
+    document.querySelector('body').style.color = color;
+  },                                                     // 객체 property 구분
+
+  setBackgroundColor : funciton (color) {
+    document.querySelector('body').style.backgroundColor = color;
+  }
+}
+```
