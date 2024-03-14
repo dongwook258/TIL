@@ -50,10 +50,11 @@ for (var key in cowokers) {
   document.write(cowokers[key] + "<br>"); // 객체의 property에 해당하는 데이터 출력
 }
 ```
-* property와 method
+* property(객체의 변수)와 method(객체의 함수)
 ```
 cowokers.showAll = function() {
   for (var key in this) {
+    if(key !== 'showAll')
     document.write(this[key] + "<br>")
   }
 }
