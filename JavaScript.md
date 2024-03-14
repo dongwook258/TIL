@@ -31,3 +31,13 @@ document.write("designer : " + cowokers.bookkeeper + "<br>");
 cowokersp["data scientist"] = "taeho";                            // 띄어쓰기 있는 객체 추가
 document.write("data scientis : " + cowokers["data scientist] + "<br>");
 ```
+* 객체 데이터 순회 방법
+```
+for (var key in cowokers) {
+  document.write(key + "<br>"); // 객체의 key값 출력
+}
+
+for (var key in cowokers) {
+  document.write(cowokers[key] + "<br>"); // 객체의 key값에 해당하는 데이터 출력
+}
+```
