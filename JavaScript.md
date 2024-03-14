@@ -18,6 +18,15 @@
 document.querySelector('body').style.backgroundColor = "black"
 document.querySelector('body').style.color = "white"
 ```
+* 태그 선택 후 순환 방법
+```
+function LinksSetColor(color) {
+  var alist = document.querySelectorAll('a'); // 모든 태그 선택해서 배열에 저장
+  for(var i = 0; i < alist.length; i++) {
+    alist[i].style.color = color;
+  }
+}
+```
 * 객채 생성
 ```
 var cowokers = {                                                  // 객체 생성
