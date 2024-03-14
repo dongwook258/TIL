@@ -18,4 +18,16 @@
 document.querySelector('body').style.backgroundColor = "black"
 document.querySelector('body').style.color = "white"
 ```
-.
+* 객채 생성
+```
+var cowokers = {                                                  // 객체 생성
+"programmer" : "egoing"
+"designer" : "leezche"
+};
+document.write("programmer : " + cowokers.programmer + "<br>");
+document.write("designer : " + cowokers.designer + "<br>");
+cowokers.bookkeeper = "duru";                                     // 객체 추가
+document.write("designer : " + cowokers.bookkeeper + "<br>");
+cowokersp["data scientist"] = "taeho";                            // 띄어쓰기 있는 객체 추가
+document.write("data scientis : " + cowokers["data scientist] + "<br>");
+```
