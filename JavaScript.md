@@ -43,10 +43,18 @@ document.write("data scientis : " + cowokers["data scientist] + "<br>");
 * 객체 데이터 순회 방법
 ```
 for (var key in cowokers) {
-  document.write(key + "<br>");           // 객체의 key값 출력
+  document.write(key + "<br>");           // 객체의 property 출력
 }
 
 for (var key in cowokers) {
-  document.write(cowokers[key] + "<br>"); // 객체의 key값에 해당하는 데이터 출력
+  document.write(cowokers[key] + "<br>"); // 객체의 property에 해당하는 데이터 출력
+}
+```
+* property와 method
+```
+cowokers.showAll = function() {
+  for (var key in this) {
+    document.write(this[key] + "<br>")
+  }
 }
 ```
