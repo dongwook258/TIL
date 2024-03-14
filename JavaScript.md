@@ -12,3 +12,9 @@
 ```
 개발자 도구의 콘솔기능을 활용하여 javascript 코드 실행 가능
 ```
+* 제어할 태그 선택하기
+```
+<input type="button" value="night" onclick="
+document.querySelector('body').style.backgroundColor = "black"
+document.querySelector('body').style.color = "white"
+```
