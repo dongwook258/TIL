@@ -87,51 +87,38 @@ var Links = {
 ```
 * javaScript 검색 키워드
 ```
-<ul>
-  <li>
-  document 객체
-  - 페이지내의 태그 조작
-  </li>
-  <li>
-  DOM 객체
-  - document 객체로도 안되는 작업은 DOM문서를 확인
-  </li>
-  <li>
-  window 객체
-  - 웹페이지가 아닌 웹 브라우저 자체를 제어해야 하는 경우, 확인
-  - ex. 현재 열린 웹페이지의 주소가 필요한 경우,
-  새로운 브라우저 창을 열어야 할때.
-  브라우저 화면 크기 정보가 필요한 경우
-  </li>
-  <li>
-  Ajax 기술
-  - 웹페이지를 reload하지 않고, 정보를 변경하고 싶다면
-  - Morden web page 를 위한 필수 기술
-  </li> 
-  <li>
-  Cookie 기술
-  - 웹페이지가 reload되어도 status를 유지해야 할 경우,
-  - 사용자를 위한 개인화된 서비스 제공
-  </li>
-  <li>
-  offline web application
-  - 인터넷이 끊겨도 동작하는 웹 페이지를 만들고 싶다
-  </li>
-  <li>
-  WebRTC
-  - 화상통신 웹 애플리케이션을 만들어야 한다면
-  </li>
-  <li>
-  Speech API
-  - 사용자의 음성을 처리하고 싶다면
-  </li>
-  <li>
-  webGL
-  - 3차원 그래픽으로 게임같은 것을 만들고 싶다면
-  </li>
-  <li>
-  webVR
-  - 가상 현실
-  </li>
-</ul>
+document 객체
+- 페이지내의 태그 조작
+
+DOM 객체
+- document 객체로도 안되는 작업은 DOM문서를 확인
+
+window 객체
+- 웹페이지가 아닌 웹 브라우저 자체를 제어해야 하는 경우, 확인
+- ex. 현재 열린 웹페이지의 주소가 필요한 경우,
+새로운 브라우저 창을 열어야 할때.
+브라우저 화면 크기 정보가 필요한 경우
+
+Ajax 기술
+- 웹페이지를 reload하지 않고, 정보를 변경하고 싶다면
+- Morden web page 를 위한 필수 기술
+
+Cookie 기술
+- 웹페이지가 reload되어도 status를 유지해야 할 경우,
+- 사용자를 위한 개인화된 서비스 제공
+
+offline web application
+- 인터넷이 끊겨도 동작하는 웹 페이지를 만들고 싶다
+
+WebRTC
+- 화상통신 웹 애플리케이션을 만들어야 한다면
+
+Speech API
+- 사용자의 음성을 처리하고 싶다면
+
+webGL
+- 3차원 그래픽으로 게임같은 것을 만들고 싶다면
+
+webVR
+- 가상 현실
 ```
