@@ -71,3 +71,17 @@ var Body = {
   }
 }
 ```
+* jQuery
+```
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+var Links = {
+  setColor : function (color) {
+  // var alist = document.querySelectorAll('a');
+  // for(var i = 0; i < alist.length; i++) {
+  //     alist[i].style.color = color;
+  // }
+  // }
+  $('a').CSS('color', color); // 위 주석처리 된 코드와 동일
+  }
+}
+```
