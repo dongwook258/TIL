@@ -30,4 +30,18 @@ public class Scanner1 {
     }
 }
 ```
-.
+* 배열
+```
+int[] a;
+a = new int[] {90, 80, 70, 60, 50};
+
+int[] a = new int[5]; //[]안에 배열의 크기 지정 필수
+
+int[] a = {90, 80, 70, 60, 50};
+```
+* 향상 된 for 문
+```
+int[] numbers = {90, 80, 70, 60, 50};
+
+for (int number : numbers)
+```
