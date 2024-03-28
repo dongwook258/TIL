@@ -38,9 +38,9 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 ```
 ```
-BufferedReader bf = new BufferedReader(new InputStreamReader(System.in)); //선언
-String s = bf.readLine(); //String
-int i = Integer.parseInt(bf.readLine()); //Int
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //선언
+String s = br.readLine(); //String
+int i = Integer.parseInt(br.readLine()); //Int
 
  throw 이용 시
 (1) 클래스를 import해주어야 한다. 
