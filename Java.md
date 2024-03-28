@@ -49,6 +49,8 @@ import java.io.IOException;
 public static void main(String[] args) throws IOException {}
 ```
 ```
+import java.util.StringTokenizer;
+
 StringTokenizer st = new StringTokenizer(s); //StringTokenizer인자값에 입력 문자열 넣음
 int a = Integer.parseInt(st.nextToken()); //첫번째 호출
 int b = Integer.parseInt(st.nextToken()); //두번째 호출
