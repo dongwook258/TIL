@@ -49,6 +49,14 @@ import java.io.IOException;
 public static void main(String[] args) throws IOException {}
 ```
 ```
+BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));   //할당된 버퍼에 값 넣어주기
+String s = "abcdefg";   //출력할 문자열
+bw.write(s+"\n");   //버퍼에 있는 값 전부 출력
+bw.flush();   //남아있는 데이터를 모두 출력시킴
+bw.close();   //스트림을 닫음
+```
+* StringTokenizer
+```
 import java.util.StringTokenizer;
 
 StringTokenizer st = new StringTokenizer(s); //StringTokenizer인자값에 입력 문자열 넣음
@@ -57,12 +65,11 @@ int b = Integer.parseInt(st.nextToken()); //두번째 호출
 
 String array[] = s.split(" "); //공백마다 데이터 끊어서 배열에 넣음
 ```
+* StringBuilder
 ```
-BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));   //할당된 버퍼에 값 넣어주기
-String s = "abcdefg";   //출력할 문자열
-bw.write(s+"\n");   //버퍼에 있는 값 전부 출력
-bw.flush();   //남아있는 데이터를 모두 출력시킴
-bw.close();   //스트림을 닫음
+StringBuilder sb = new StringBuilder();
+
+sb.append(a+b).append("\n");
 ```
 * 배열
 ```
