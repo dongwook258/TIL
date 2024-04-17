@@ -82,7 +82,6 @@ int[] a = {90, 80, 70, 60, 50};
 ```
 * 향상 된 for 문
 ```
-.
 int[] numbers = {90, 80, 70, 60, 50};
 
 for (int number : numbers)
