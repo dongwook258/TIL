@@ -86,4 +86,3 @@ int[] numbers = {90, 80, 70, 60, 50};
 
 for (int number : numbers)
 ```
-.
