@@ -53,3 +53,24 @@ http://localhost:8080/hello-mvc?name=spring!
 ```
 
 ![image](https://github.com/dongwook258/TIL/assets/124165097/a1588df9-af68-446f-a473-4b505d883cb4)
+
+* API
+
+```
+@ResponseBody 문자 반환
+
+@Controller
+public class HelloController {
+ @GetMapping("hello-string")
+ @ResponseBody
+ public String helloString(@RequestParam("name") String name) {
+ return "hello " + name;
+ }
+}
+
+@ResponseBody 를 사용하면 뷰 리졸버( viewResolver )를 사용하지 않음
+대신에 HTTP의 BODY에 문자 내용을 직접 반환(HTML BODY TAG를 말하는 것이 아님)
+
+실행
+http://localhost:8080/hello-string?name=spring!
+```
