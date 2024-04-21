@@ -49,3 +49,4 @@ resources/templates/hello-template.html //Controller가 찾을 위치
 </html>
 ```
 ```
+![image](https://github.com/dongwook258/TIL/assets/124165097/a1588df9-af68-446f-a473-4b505d883cb4)
