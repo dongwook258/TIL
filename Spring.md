@@ -47,6 +47,9 @@ resources/templates/hello-template.html //Controller가 찾을 위치
 <p th:text="'hello ' + ${name}">hello! empty</p> //${name}에 Controller의 (name = 값) 이 들어감
 </body>
 </html>
+
+실행
+http://localhost:8080/hello-mvc?name=spring!
 ```
 
 ![image](https://github.com/dongwook258/TIL/assets/124165097/a1588df9-af68-446f-a473-4b505d883cb4)
