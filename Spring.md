@@ -30,11 +30,12 @@ Controller
 
 @Controller
 public class HelloController {
- @GetMapping("hello-mvc")          //hello-mvc와 연결
- public String helloMvc(@RequestParam("name") String name, Model model) { //RequestParam 웹 브라우저에서 매개변수 받기
- model.addAttribute("name", name); //"name" = 키, name = 값
- return "hello-template";          //templates 하위 폴더의 hello-template 찾아서 실행
- }
+
+    @GetMapping("hello-mvc")          //hello-mvc와 연결
+    public String helloMvc(@RequestParam("name") String name, Model model) { //RequestParam 웹 브라우저에서 매개변수 받기
+    model.addAttribute("name", name); //"name" = 키, name = 값
+    return "hello-template";          //templates 하위 폴더의 hello-template 찾아서 실행
+    }
 }
 ```
 
@@ -61,11 +62,11 @@ http://localhost:8080/hello-mvc?name=spring!
 
 @Controller
 public class HelloController {
- @GetMapping("hello-string")
- @ResponseBody
- public String helloString(@RequestParam("name") String name) {
- return "hello " + name;
- }
+    @GetMapping("hello-string")
+    @ResponseBody
+    public String helloString(@RequestParam("name") String name) {
+    return "hello " + name;
+    }
 }
 
 @ResponseBody 를 사용하면 뷰 리졸버( viewResolver )를 사용하지 않음
@@ -73,4 +74,51 @@ public class HelloController {
 
 실행
 http://localhost:8080/hello-string?name=spring!
+```
+
+```
+@ResponseBody 객체 반환
+
+@Controller
+public class HelloController {
+
+    @GetMapping("hello-api")
+    @ResponseBody
+    public Hello helloApi(@RequestParam("name") String name) {
+    Hello hello = new Hello();
+    hello.setName(name);
+    return hello;
+    }
+
+    static class Hello {
+
+    private String name;
+
+    public String getName() {
+    return name;
+    }
+
+    public void setName(String name) {
+    this.name = name;
+    }
+
+    }
+}
+@ResponseBody 를 사용하고, 객체를 반환하면 객체가 JSON으로 변환됨
+
+실행
+http://localhost:8080/hello-api?name=spring
+```
+
+```
+@ResponseBody 사용 원리
+
+![image](https://github.com/dongwook258/TIL/assets/124165097/72a9b8b1-b565-41af-9caf-f9a95787cb3b)
+
+@ResponseBody 를 사용
+HTTP의 BODY에 문자 내용을 직접 반환
+viewResolver 대신에 HttpMessageConverter 가 동작
+기본 문자처리: StringHttpMessageConverter
+기본 객체처리: MappingJackson2HttpMessageConverter
+byte 처리 등등 기타 여러 HttpMessageConverter가 기본으로 등록되어 있음
 ```
