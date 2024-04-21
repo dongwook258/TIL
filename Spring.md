@@ -109,11 +109,9 @@ public class HelloController {
 실행
 http://localhost:8080/hello-api?name=spring
 ```
-
+![image](https://github.com/dongwook258/TIL/assets/124165097/72a9b8b1-b565-41af-9caf-f9a95787cb3b)
 ```
 @ResponseBody 사용 원리
-
-![image](https://github.com/dongwook258/TIL/assets/124165097/72a9b8b1-b565-41af-9caf-f9a95787cb3b)
 
 @ResponseBody 를 사용
 HTTP의 BODY에 문자 내용을 직접 반환
