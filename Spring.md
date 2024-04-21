@@ -23,12 +23,11 @@ resources/static/hello-static.html //static 폴더 하위에 생성
 1. 관련 컨트롤러 찾기 우선
 ![image](https://github.com/dongwook258/TIL/assets/124165097/5229ab19-99e6-4f48-ae9b-3410e42abf49)
 
-* MVC와 템플릿 엔진
-```
-MVC: Model, View, Controller
+* MVC와 템플릿 엔진 (MVC: Model, View, Controller)
 
-Controller
 ```
+Controller
+
 @Controller
 public class HelloController {
  @GetMapping("hello-mvc")          //hello-mvc와 연결
@@ -39,9 +38,10 @@ public class HelloController {
 }
 ```
 
+```
 View
 resources/templates/hello-template.html //Controller가 찾을 위치
-```
+
 <html xmlns:th="http://www.thymeleaf.org"> //thymeleaf 받아야 함
 <body>
 <p th:text="'hello ' + ${name}">hello! empty</p> //${name}에 Controller의 (name = 값) 이 들어감
