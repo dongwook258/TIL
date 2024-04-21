@@ -21,3 +21,4 @@ resources/static/hello-static.html // static 폴더 하위에 생성
 </html>
 ```
 ![image](https://github.com/dongwook258/TIL/assets/124165097/5229ab19-99e6-4f48-ae9b-3410e42abf49)
+// 1. 관련 컨트롤러 찾기 우선
