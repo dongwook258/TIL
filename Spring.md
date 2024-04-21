@@ -41,10 +41,11 @@ public class HelloController {
 
 View
 resources/templates/hello-template.html //Controller가 찾을 위치
-```html
+```
 <html xmlns:th="http://www.thymeleaf.org"> //thymeleaf 받아야 함
 <body>
 <p th:text="'hello ' + ${name}">hello! empty</p> //${name}에 Controller의 (name = 값) 이 들어감
 </body>
 </html>
+```
 ```
