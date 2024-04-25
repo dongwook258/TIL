@@ -143,3 +143,19 @@ byte 처리 등등 기타 여러 HttpMessageConverter가 기본으로 등록되�
  각 테스트 실행 전에 호출된다. 테스트가 서로 영향이 없도록 항상 새로운 객체를 생성하고,
 의존관계도 새로 맺어준다.
 ```
+
+* 컴포넌트 스캔과 자동 의존관계 설정
+```
+컨트롤러에 의존관계 추가
+
+생성자에 @Autowired 가 있으면 스프링이 연관된 객체를 스프링 컨테이너에서 찾아서 넣어준다. 이렇게
+객체 의존관계를 외부에서 넣어주는 것을 DI (Dependency Injection), 의존성 주입이라 한다.
+이전 테스트에서는 개발자가 직접 주입했고, 여기서는 @Autowired에 의해 스프링이 주입해준다.
+
+@Component 애노테이션이 있으면 스프링 빈으로 자동 등록된다.
+
+@Controller
+@Service
+@Repository
+```
+![image](https://github.com/dongwook258/TIL/assets/124165097/1f6e0f44-21c0-4ee3-ae56-fd5fb8ccdd20)
