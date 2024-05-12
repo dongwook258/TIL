@@ -86,7 +86,7 @@ int[] numbers = {90, 80, 70, 60, 50};
 
 for (int number : numbers)
 ```
-*java.lang 패키지의 대표적인 클래스들
+* java.lang 패키지의 대표적인 클래스들
 ```
 Object : 모든 자바 객체의 부모 클래스
 String : 문자열
