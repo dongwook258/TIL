@@ -231,7 +231,7 @@
     <h1><a href="index.html">HTML</a></h1>
 </header>
 
-<nav>               // navigation 부분 명시
+<nav>               // navigation 부분 명시(해당 링크로 이동)
     <ol>
       <li><a href="1.html">기술소개</a></li>
       <li><a href="2.html">기본문법</a></li>
