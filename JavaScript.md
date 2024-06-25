@@ -93,6 +93,16 @@ window.onload = function(){ // 화면이 다 로딩 된 후 실행
 
 document.getElementById("h01").innerText = "hello...1"; // 해당 id 찾아서 실행
 ```
+* alert, prompt, confirm
+```
+alert("잘못 입력 하셨습니다."); // 경고창
+
+let name = prompt("이름을 입력하세요"); // 입력창
+console.log("입력한 이름은 " + name + "입니다.");
+
+let con = confirm("정말 삭제하시겠습니까?"); // 확인창
+console.log(con);
+```
 * javaScript 검색 키워드
 ```
 document 객체
