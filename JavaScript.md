@@ -85,6 +85,14 @@ var Links = {
   }
 }
 ```
+* window.onloda , document.getElementById
+```
+window.onload = function(){ // 화면이 다 로딩 된 후 실행
+            console.log("hello...4");
+        };
+
+document.getElementById("h01").innerText = "hello...1"; // 해당 id 찾아서 실행
+```
 * javaScript 검색 키워드
 ```
 document 객체
