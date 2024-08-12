@@ -186,7 +186,7 @@
     </body>
 </html>
 ```
-* 파일 업로드
+* 파일 업로드 (enctype 고정)
 ```
 <html>
     <head>
