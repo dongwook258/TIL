@@ -6,6 +6,10 @@ public class HelloJava {
   }
 }
 ```
+* String[] args
+```
+Java에서는 기본 메소드에서는 String 배열 유형의 단일 인수를 허용한다. 다른 이름으로는 Java 명령행 인수라고도 하며 명령인수를 통해서 프로그램이 실행할때 명령줄 인수를 전달할수있다.
+```
 * 사용자 입력 받기
 ```
 package scanner;
