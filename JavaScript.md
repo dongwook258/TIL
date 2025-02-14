@@ -103,6 +103,15 @@ console.log("입력한 이름은 " + name + "입니다.");
 let con = confirm("정말 삭제하시겠습니까?"); // 확인창
 console.log(con);
 ```
+* 구조 분해 할당(Destructuring assignment)
+```
+const arr = [1, 2, 3];
+const [a, b, c] = arr;
+
+console.log(a); // 1
+console.log(b); // 2
+console.log(c); // 3
+```
 * javaScript 검색 키워드
 ```
 document 객체
