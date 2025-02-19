@@ -12,4 +12,5 @@ CD : 지속적인 제공(Continuous Delivery) [수동] / 지속적인 배포(Con
 ```
 test.c -> test.obj -> test.exe
       컴파일       링크
+빌드 = 컴파일 + 링크
 ```
