@@ -14,3 +14,7 @@ test.c -> test.class -> test.exe
       컴파일       링크(링커가 라이브러리등을 연결)
 빌드 = 컴파일 + 링크 한 파일들을 실행 가능한(exe) 파일로 만드는 과정
 ```
+* Docker
+```
+![image](https://github.com/user-attachments/assets/a7c2001a-fb37-4c05-a6cc-ef4002904e08)
+```
