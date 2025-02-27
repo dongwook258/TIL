@@ -14,6 +14,16 @@ test.c -> test.class -> test.exe
       컴파일       링크(링커가 라이브러리등을 연결)
 빌드 = 컴파일 + 링크 한 파일들을 실행 가능한(exe) 파일로 만드는 과정
 ```
+* Container
+```
+한 대의 서버에서 여러 개의 소프트웨어를 안전하고 효율적으로 운영
+```
 * Docker
-  
+```
+컨테이너를 관리하기 위한 도구
+```
 ![image](https://github.com/user-attachments/assets/9b18903b-22cb-4c5c-8652-f52a419100b3)
+* Kubernetes
+```
+각각의 서버의 도커에게 대신 지시해주는 오케스트레이션 도구
+```
