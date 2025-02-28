@@ -27,3 +27,8 @@ test.c -> test.class -> test.exe
 ```
 각각의 서버의 도커에게 대신 지시해주는 오케스트레이션 도구
 ```
+* Web Server / Web Application Server
+```
+Web Server : 정적 웹 페이지
+Web Application Server : 동적 웹 페이지
+```
