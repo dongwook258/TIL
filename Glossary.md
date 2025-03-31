@@ -32,3 +32,4 @@ test.c -> test.class -> test.exe
 Web Server : 정적 콘텐츠 처리 or 동적 콘텐츠 요청 WAS로 전달
 Web Application Server : 동적 콘텐츠 생성 or 비즈니스 로직 수행
 ```
+* compile time vs runtime
