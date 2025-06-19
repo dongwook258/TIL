@@ -32,7 +32,7 @@ test.c -> test.class -> test.exe
 Web Server : 정적 콘텐츠 처리 or 동적 콘텐츠 요청 WAS로 전달
 Web Application Server : 동적 콘텐츠 생성 or 비즈니스 로직 수행
 ```
-✅ Compile Time vs Run Time
+✅ Compile Time (컴파일 시간) vs Run Time (실행 시간)
 | 구분    | Compile Time (컴파일 시간)   | Run Time (실행 시간)                        |
 | ----- | ----------------------- | --------------------------------------- |
 | 시점    | 코드 → 기계어로 **변환되는 시간**   | 프로그램이 **실제로 실행되는 시간**                   |
