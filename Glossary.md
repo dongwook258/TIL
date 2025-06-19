@@ -32,7 +32,13 @@ test.c -> test.class -> test.exe
 Web Server : 정적 콘텐츠 처리 or 동적 콘텐츠 요청 WAS로 전달
 Web Application Server : 동적 콘텐츠 생성 or 비즈니스 로직 수행
 ```
-* compile time vs runtime
+✅ Compile Time vs Run Time
+| 구분    | Compile Time (컴파일 시간)   | Run Time (실행 시간)                        |
+| ----- | ----------------------- | --------------------------------------- |
+| 시점    | 코드 → 기계어로 **변환되는 시간**   | 프로그램이 **실제로 실행되는 시간**                   |
+| 주체    | **컴파일러** (javac, gcc 등) | **운영체제 + CPU**                          |
+| 관련 요소 | 문법 오류, 타입 검사, 선언 확인 등   | 로직 실행, 예외 발생, 메모리 동작 등                  |
+| 오류 예시 | 문법 에러, 타입 불일치           | null pointer, divide by zero, 배열 인덱스 초과 |
 
 * MVC 패턴
 ```
