@@ -21,4 +21,13 @@ OS를 직접 설치하고 필요한 소프트웨어를 개발해서 사용
 ```
 인프라 + OS + 기타 프로그램 실행에 필요한 부분 (런타임)
 바로 코드만 올려서 돌릴 수 있도록 구성
+예 : Firebase, Google App Engine 등
+```
+
+* SaaS (Software as a Service)
+```
+인프라 + OS + 필요한 소프트웨어가 제공됨
+서비스 자체를 제공
+다른 세팅 없이 서비스만 이용
+예 : Gmail, DropBox, Slack, Google Docs
 ```
