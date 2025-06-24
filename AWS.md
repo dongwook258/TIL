@@ -41,3 +41,7 @@ OS를 직접 설치하고 필요한 소프트웨어를 개발해서 사용
 다른 세팅 없이 서비스만 이용
 예 : Gmail, DropBox, Slack, Google Docs
 ```
+
+* AWS의 구조
+
+![image](https://github.com/user-attachments/assets/697be23b-fd8a-468f-9771-38be876066f2)
