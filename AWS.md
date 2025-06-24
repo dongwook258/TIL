@@ -73,3 +73,14 @@ AWS의 서비스가 제공되는 서버의 물리적 위치
 루트 유저는 관리용으로만 이용 : 계정 설정 변경, 빌링 등
 AWS API 호출 불가 (AccessKey/Secret AccessKey 부여 불가)
 ```
+
+* IAM 유저
+```
+IAM (Identity and Access Management)을 통해 생성한 유저
+기본 권한 없음 : 따로 권한 부여 필요
+꼭 사람이 아닌 어플리케이션 등의 가상의 주체를 대표할 수도 있음
+AWS API 호출 가능
+  AccessKey : 아이디 개념
+  Secret Access Key : 패스워드 개념
+빌링 관련 권한은 루트 유저가 허용해야 함
+```
